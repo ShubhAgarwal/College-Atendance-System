@@ -1,0 +1,122 @@
+html,body{
+    margin: 0px;
+    height: 100%;
+}
+
+body{
+    display:grid;
+    grid-template-columns: 16% auto;
+    grid-template-rows: 10.5% auto;
+    grid-template-areas:
+    "header header"
+    "sidebar body";
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+header{
+    background: #813405;
+    color: white;
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6em 1em 0.6em 1.5em;
+}
+
+header .head{
+    display: flex;
+}
+
+header .icon{
+    display: inline-block;
+    border: solid black 1px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: white;
+}
+
+header .name{
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-top: 0.3em;
+}
+
+header ul li a{
+    padding: 0.9em;
+    color: white;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+aside{
+    grid-area: sidebar;
+    background: #D45113;
+}
+
+.body{
+    grid-area: body;
+    height: 100%;
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.arrow{
+    margin-left: 0.2em;
+    width: 9px;
+}
+
+aside .title{
+    color: black;
+    font-size: 1.4em;
+    line-height: 1.2em;
+    margin: 3em 1em 2em 1em;
+}
+
+aside .welcome{
+    font-size: 1.2em;
+}
+
+aside ul{
+    background: rgba(249, 160, 63, 0.5);
+}
+
+aside ul li a{
+    padding: 1.1em 2.5em;
+}
+
+header ul li a:hover{
+    color: white;
+    background: rgba(0, 0, 0, 1);
+}
+
+aside ul li a:hover{
+    color: black;
+    background: rgba(250, 194, 132, 0.45);
+}
+
+.drop{
+    background: #813405;
+    z-index: 1;
+    position: fixed;
+}

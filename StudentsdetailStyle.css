@@ -1,0 +1,292 @@
+html,body{
+    height: 100vh;
+    margin: 0px;
+}
+
+body{
+    background: rgba(93, 115, 126, 0.45);
+}
+
+h5{
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+    margin-top: 1em;
+    font-size: 30px;
+    font-weight: 450;
+    text-align: center;
+}
+
+p{
+    color: red;
+    text-align: center;
+    visibility: hidden;
+}
+
+.tools{
+    display: flex;
+    margin: 2em 10.5em 1em 5em;
+    justify-content: space-between;
+}
+
+.file{
+    display: flex;
+    margin-left: 6em;
+    width: 400px;
+}
+
+.file button{
+    height: 33px;
+    padding: 0.2em 0.5em;
+    margin-left: 1em;
+}
+
+.custom-file{
+    width: 250px;
+    height: 10px;
+}
+
+.custom-file label{
+    text-align: left;
+    height: 33px;
+    padding: 0.2em 0.5em;
+}
+
+.custom-file label:after{
+    height: 31px;
+    padding: 0.2em 0.5em;
+}
+
+.tools a{
+    margin: 0 0.6em;
+    text-transform: lowercase;
+}
+
+.tools img{
+    width: 15px;
+    margin-right: 0.2em;
+    margin-top: -0.2em;
+}
+
+.add,.add:hover{
+    color: green;
+}
+
+.edit,.edit:hover{
+    color: black;
+}
+
+.delete,.delete:hover{
+    color: red;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+
+th{
+    padding: 1em 0.6em;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    background: rgba(255, 255, 255, 0.20);
+}
+
+.c1{
+    width: 30px;
+}
+.c2{
+    width: 80px;
+}
+.c3{
+    width: 150px;
+}
+.c4{
+    width: 250px;
+}
+.c5{
+    width: 100px;
+}
+.c6{
+    width: 150px;
+}
+.c7{
+    width: 100px;
+}
+.c8{
+    width: 100px;
+}
+.c9{
+    width: 100px;
+}
+.c10{
+    width: 240px;
+}
+.c11{
+    width: 150px;
+}
+.c12{
+    width: 150px;
+}
+.c13{
+    width: 240px;
+}
+.c14{
+    width: 150px;
+}
+.c15{
+    width: 150px;
+}
+.c16{
+    width: 240px;
+}
+.c17{
+    width: 300px;
+}
+.c18{
+    width: 150px;
+}
+.c19{
+    width: 150px;
+}
+.c20{
+    width: 300px;
+}
+.c21{
+    width: 150px;
+}
+.c22{
+    width: 150px;
+}
+
+td{
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 1em;
+    border-bottom: solid rgb(145, 145, 145) 1px;
+}
+
+tr:hover{
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.t-header{
+    margin: auto;
+    width: 85%;
+    overflow: auto;
+}
+
+.t-content{
+    margin: auto;
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.Pop{
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: none; 
+}
+
+.addContent , .editContent{
+    display: block;
+    position: absolute;
+    background: white;
+    top: 5%;
+    left: 30%;
+    height: 500px;
+    width: 600px;
+    border-radius: 6px;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.24);
+    z-index: 2;
+    display: none;
+}
+
+.deleteContent{
+    display: block;
+    position: absolute;
+    background: white;
+    top: 25%;
+    left: 30%;
+    height: 300px;
+    width: 500px;
+    border-radius: 6px;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.24);
+    z-index: 2;
+    display: none;
+}
+
+.addContent .scroll{
+    height: 340px;
+    overflow-y: auto;
+}
+
+.repeat table{
+    margin-top: 0.5em;
+}
+
+.repeat{
+    height: 340px;
+    overflow-y: auto;
+}
+
+.deleteContent .extra{
+    margin-top: 3.5em;
+    text-align: center;
+}
+
+.Pop img{
+    width: 50px;
+    padding: 0.5em 1em;
+    float: right;
+    cursor: pointer;
+}
+
+img:hover{
+    color: green;
+}
+
+.Pop h5{
+    margin-top: 0.9em;
+    margin-bottom: 0.5em;
+}
+
+.th{
+    text-transform: none;
+    padding: 0.1em;
+    font-weight: 400;
+    width: 35%;
+    font-size: 1.1em;
+}
+
+label{
+    margin: 0px;
+}
+
+.td{
+    padding: 0.2em 0.2em;
+    border: none;
+}
+
+form{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-control{
+    display: inline-block;
+    width: 100%;
+}
+
+.button{
+    margin: 1em;
+    text-transform: uppercase;
+    color:white;
+}

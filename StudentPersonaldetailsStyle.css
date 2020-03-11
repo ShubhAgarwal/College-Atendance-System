@@ -1,0 +1,51 @@
+body{
+    background: rgba(250, 194, 132, 0.45);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body{
+    width: 60%;
+    margin: 1em auto;
+}
+
+table{
+    width: 100%;
+    background: white;
+    border-radius: 4px;
+    margin-right: 1em;
+}
+
+th{
+    font-size: 0.9em;
+    width: 150px;
+}
+
+td,th{
+    height: 35px;
+    padding: 0.5em 1em;
+}
+
+td{
+    color: rgb(90, 89, 89);
+}
+
+tr{
+    border-bottom: solid rgb(224, 224, 224) 1px;
+}
+
+h5{
+    width: 300px;
+    margin-top: 1em;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex h5{
+    margin-left: -2em;
+    padding: 0px;
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<company>
+ <employee>
+ <id>1000</id>
+ <name>Cruise</name>
+ <credits>9</credits>
+ </employee>
+</company>

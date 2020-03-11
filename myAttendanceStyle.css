@@ -1,0 +1,33 @@
+body{
+    background: rgba(250, 194, 132, 0.45); 
+}
+
+table{
+    margin-top: 20px;
+    margin: 0 auto;
+    width: 55%;
+    background: white;
+}
+
+th{
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+td,th{
+    height: 35px;
+    padding: 0.9em 0.5em 0.8em 1.8em;
+}
+
+td{
+    color: rgb(90, 89, 89);
+}
+
+tr{
+    border-bottom: solid rgb(243, 243, 243) 1px;
+}
+
+h4{
+    width: 300px;
+    margin: 1em auto;
+}
